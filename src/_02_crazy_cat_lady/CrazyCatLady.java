@@ -14,7 +14,7 @@ String bruh = JOptionPane.showInputDialog("how many cats do you have");
 		// 2. Convert their answer into an int
 int num =Integer.parseInt(bruh);
 if (num>3) {
-	JOptionPane.showMessageDialog(null,"you must beacrazy cat lady");
+	JOptionPane.showMessageDialog(null,"you must be acrazy cat lady");
 }else if(num < 3 && num > 0) {
 	playVideo("https://www.youtube.com/watch?v=diSjU2Go1mM");
 }else if (num==0) {
